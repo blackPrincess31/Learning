@@ -70,6 +70,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(520,260)" to="(640,260)"/>
     <wire from="(640,260)" to="(760,260)"/>
     <wire from="(800,180)" to="(850,180)"/>
+    <wire from="(800,180)" to="(800,380)"/>
     <wire from="(890,180)" to="(890,380)"/>
     <wire from="(900,90)" to="(900,180)"/>
     <wire from="(760,260)" to="(860,260)"/>
@@ -78,130 +79,157 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(400,90)" to="(400,190)"/>
     <wire from="(540,190)" to="(560,190)"/>
     <wire from="(450,190)" to="(480,190)"/>
+    <wire from="(480,190)" to="(510,190)"/>
+    <wire from="(670,190)" to="(690,190)"/>
     <wire from="(730,180)" to="(750,180)"/>
+    <wire from="(780,180)" to="(800,180)"/>
     <wire from="(400,190)" to="(420,190)"/>
     <wire from="(400,90)" to="(680,90)"/>
+    <wire from="(680,90)" to="(900,90)"/>
     <wire from="(860,200)" to="(860,260)"/>
     <wire from="(560,190)" to="(630,190)"/>
     <wire from="(670,190)" to="(670,380)"/>
     <wire from="(430,210)" to="(430,260)"/>
-    <wire from="(760,200)" to="(760,260)"/>
-    <wire from="(880,180)" to="(890,180)"/>
-    <wire from="(800,180)" to="(800,380)"/>
-    <wire from="(480,190)" to="(510,190)"/>
-    <wire from="(670,190)" to="(690,190)"/>
-    <wire from="(780,180)" to="(800,180)"/>
-    <wire from="(680,90)" to="(900,90)"/>
     <wire from="(520,210)" to="(520,260)"/>
     <wire from="(560,190)" to="(560,380)"/>
+    <wire from="(760,200)" to="(760,260)"/>
     <wire from="(480,190)" to="(480,380)"/>
+    <wire from="(880,180)" to="(890,180)"/>
     <wire from="(890,180)" to="(900,180)"/>
     <wire from="(640,210)" to="(640,260)"/>
     <wire from="(660,190)" to="(670,190)"/>
     <wire from="(680,170)" to="(690,170)"/>
     <wire from="(360,260)" to="(430,260)"/>
-    <comp lib="6" loc="(503,420)" name="Text">
-      <a name="text" val="0"/>
+    <comp lib="6" loc="(1225,485)" name="Text">
+      <a name="text" val="Выполнили"/>
       <a name="font" val="SansSerif plain 20"/>
     </comp>
-    <comp lib="4" loc="(880,180)" name="Register">
-      <a name="width" val="1"/>
+    <comp lib="6" loc="(892,48)" name="Text">
+      <a name="text" val="5"/>
+      <a name="font" val="SansSerif bold 16"/>
     </comp>
-    <comp lib="4" loc="(780,180)" name="Register">
-      <a name="width" val="1"/>
+    <comp lib="6" loc="(639,50)" name="Text">
+      <a name="text" val="3"/>
+      <a name="font" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="6" loc="(682,422)" name="Text">
+      <a name="text" val="2"/>
+      <a name="font" val="SansSerif plain 20"/>
     </comp>
     <comp lib="4" loc="(540,190)" name="Register">
       <a name="width" val="1"/>
     </comp>
+    <comp lib="5" loc="(670,380)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="4" loc="(450,190)" name="Register">
       <a name="width" val="1"/>
     </comp>
-    <comp lib="6" loc="(572,421)" name="Text">
-      <a name="text" val="1"/>
-      <a name="font" val="SansSerif plain 20"/>
+    <comp lib="5" loc="(480,380)" name="LED">
+      <a name="facing" val="north"/>
     </comp>
     <comp lib="6" loc="(1241,541)" name="Text">
       <a name="text" val="Савченко Е.А."/>
       <a name="font" val="SansSerif plain 20"/>
     </comp>
-    <comp lib="5" loc="(480,380)" name="LED">
+    <comp lib="6" loc="(564,449)" name="Text">
+      <a name="text" val="x"/>
+      <a name="font" val="SansSerif italic 40"/>
+    </comp>
+    <comp lib="5" loc="(560,380)" name="LED">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="6" loc="(907,419)" name="Text">
-      <a name="text" val="4"/>
+    <comp lib="6" loc="(618,77)" name="Text">
+      <a name="text" val="x"/>
+      <a name="font" val="SansSerif italic 40"/>
+    </comp>
+    <comp lib="6" loc="(1230,617)" name="Text">
+      <a name="text" val="Савич О.А."/>
       <a name="font" val="SansSerif plain 20"/>
     </comp>
-    <comp lib="6" loc="(682,422)" name="Text">
-      <a name="text" val="2"/>
+    <comp lib="4" loc="(880,180)" name="Register">
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="1" loc="(730,180)" name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="xor" val="odd"/>
+    </comp>
+    <comp lib="6" loc="(833,225)" name="Text">
+      <a name="font" val="SansSerif plain 20"/>
+    </comp>
+    <comp lib="6" loc="(489,445)" name="Text">
+      <a name="text" val="x"/>
+      <a name="font" val="SansSerif italic 40"/>
+    </comp>
+    <comp lib="6" loc="(401,76)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="SansSerif plain 36"/>
+    </comp>
+    <comp lib="5" loc="(800,380)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="6" loc="(1340,62)" name="Text">
+      <a name="text" val="*нами был выбран данный неприводимый многочлен"/>
+      <a name="font" val="SansSerif italic 20"/>
+    </comp>
+    <comp lib="6" loc="(795,448)" name="Text">
+      <a name="text" val="x"/>
+      <a name="font" val="SansSerif italic 40"/>
+    </comp>
+    <comp lib="6" loc="(664,447)" name="Text">
+      <a name="text" val="x"/>
+      <a name="font" val="SansSerif italic 40"/>
+    </comp>
+    <comp lib="6" loc="(1335,91)" name="Text">
+      <a name="text" val="P(x)= 1+x^3+x^5"/>
+      <a name="font" val="SansSerif italic 20"/>
+    </comp>
+    <comp lib="6" loc="(813,423)" name="Text">
+      <a name="text" val="3"/>
+      <a name="font" val="SansSerif plain 20"/>
+    </comp>
+    <comp lib="6" loc="(572,421)" name="Text">
+      <a name="text" val="1"/>
       <a name="font" val="SansSerif plain 20"/>
     </comp>
     <comp lib="6" loc="(1249,566)" name="Text">
       <a name="text" val="Перминова А.В."/>
       <a name="font" val="SansSerif plain 20"/>
     </comp>
-    <comp lib="6" loc="(489,445)" name="Text">
-      <a name="text" val="x"/>
-      <a name="font" val="SansSerif plain 40"/>
-    </comp>
-    <comp lib="5" loc="(560,380)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="6" loc="(1233,513)" name="Text">
-      <a name="text" val="ст.гр.961401"/>
+    <comp lib="0" loc="(360,260)" name="Clock"/>
+    <comp lib="6" loc="(503,420)" name="Text">
+      <a name="text" val="0"/>
       <a name="font" val="SansSerif plain 20"/>
-    </comp>
-    <comp lib="5" loc="(670,380)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(800,380)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="6" loc="(833,225)" name="Text">
-      <a name="font" val="SansSerif plain 20"/>
-    </comp>
-    <comp lib="6" loc="(813,423)" name="Text">
-      <a name="text" val="3"/>
-      <a name="font" val="SansSerif plain 20"/>
-    </comp>
-    <comp lib="6" loc="(564,449)" name="Text">
-      <a name="text" val="x"/>
-      <a name="font" val="SansSerif plain 40"/>
-    </comp>
-    <comp lib="5" loc="(890,380)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="6" loc="(1230,617)" name="Text">
-      <a name="text" val="Савич О.А."/>
-      <a name="font" val="SansSerif plain 20"/>
-    </comp>
-    <comp lib="6" loc="(664,447)" name="Text">
-      <a name="text" val="x"/>
-      <a name="font" val="SansSerif plain 40"/>
     </comp>
     <comp lib="6" loc="(1243,592)" name="Text">
       <a name="text" val="Матошко М.П."/>
       <a name="font" val="SansSerif plain 20"/>
     </comp>
-    <comp lib="6" loc="(1225,485)" name="Text">
-      <a name="text" val="Выполнили"/>
-      <a name="font" val="SansSerif plain 20"/>
+    <comp lib="4" loc="(780,180)" name="Register">
+      <a name="width" val="1"/>
     </comp>
-    <comp lib="6" loc="(795,448)" name="Text">
+    <comp lib="6" loc="(868,75)" name="Text">
       <a name="text" val="x"/>
-      <a name="font" val="SansSerif plain 40"/>
+      <a name="font" val="SansSerif italic 40"/>
     </comp>
-    <comp lib="0" loc="(360,260)" name="Clock"/>
-    <comp lib="1" loc="(730,180)" name="XOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="xor" val="odd"/>
-    </comp>
-    <comp lib="6" loc="(889,444)" name="Text">
-      <a name="text" val="x"/>
-      <a name="font" val="SansSerif plain 40"/>
+    <comp lib="5" loc="(890,380)" name="LED">
+      <a name="facing" val="north"/>
     </comp>
     <comp lib="4" loc="(660,190)" name="Register">
       <a name="width" val="1"/>
+    </comp>
+    <comp lib="6" loc="(1233,513)" name="Text">
+      <a name="text" val="ст.гр.961401"/>
+      <a name="font" val="SansSerif plain 20"/>
+    </comp>
+    <comp lib="6" loc="(907,419)" name="Text">
+      <a name="text" val="4"/>
+      <a name="font" val="SansSerif plain 20"/>
+    </comp>
+    <comp lib="6" loc="(889,444)" name="Text">
+      <a name="text" val="x"/>
+      <a name="font" val="SansSerif italic 40"/>
     </comp>
   </circuit>
 </project>
