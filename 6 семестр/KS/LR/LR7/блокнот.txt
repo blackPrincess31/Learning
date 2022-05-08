@@ -56,4 +56,6 @@ permit udp any any eq domain
  permit tcp 31.24.88.32 0.0.0.31 host 172.10.0.106 eq 31000
  deny tcp any any
  deny udp any any
+ permit icmp 172.10.0.144 0.0.0.15 host 192.168.11.11
+ permit ip host 130.85.85.66 host 207.209.184.6
 
