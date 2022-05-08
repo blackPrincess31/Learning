@@ -33,3 +33,27 @@
  permit tcp any eq 22 host 172.10.10.2
 
 
+permit udp any any eq domain
+ permit tcp any any eq domain
+ permit tcp host 172.10.10.2 host 172.10.0.106 eq www
+ permit tcp host 172.10.10.2 host 172.10.0.106 eq 443
+ permit tcp 172.10.0.144 0.0.0.15 host 172.10.0.106 range 20 ftp
+ permit tcp host 172.10.10.2 host 172.10.0.106 range 20 ftp
+ permit tcp 172.10.0.144 0.0.0.15 host 172.10.0.106 eq pop3
+ permit tcp 172.10.0.144 0.0.0.15 host 172.10.0.106 eq smtp
+ permit tcp host 172.10.10.2 host 172.10.0.106 eq pop3
+ permit tcp host 172.10.10.2 host 172.10.0.106 eq smtp
+ permit ospf any any
+ permit tcp host 172.10.0.4 host 172.10.0.106 eq 31000
+ permit tcp host 172.10.10.2 any eq 22
+ permit udp host 172.10.0.4 any eq 1645
+ permit tcp any host 192.168.11.11 eq www
+ permit udp any host 192.168.11.11 eq 443
+ permit tcp 130.85.85.0 0.0.0.255 host 172.10.0.106 eq 31000
+ permit tcp 172.10.0.160 0.0.0.15 host 172.10.0.106 eq 31000
+ permit tcp 172.10.0.176 0.0.0.15 host 172.10.0.106 eq 31000
+ permit tcp 172.10.0.192 0.0.0.15 host 172.10.0.106 eq 31000
+ permit tcp 31.24.88.32 0.0.0.31 host 172.10.0.106 eq 31000
+ deny tcp any any
+ deny udp any any
+
